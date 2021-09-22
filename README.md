@@ -27,3 +27,4 @@
 
 - [Micronaut Hikari JDBC Connection Pool documentation](https://micronaut-projects.github.io/micronaut-sql/latest/guide/index.html#jdbc)
 
+- [Resources](https://www.youtube.com/watch?v=fj9QJnIsUjE)
