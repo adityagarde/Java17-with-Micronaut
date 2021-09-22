@@ -20,5 +20,10 @@ public record Book(
         @Positive
         int pages,
         @NotNull
-        Author author) implements Entity<Long> {
+        Author author,
+        boolean enabled) implements Entity<Long> {
+
+    public Book(String title, int pages, Author author) {
+        this(null, title, pages, author, true);
+    }
 }

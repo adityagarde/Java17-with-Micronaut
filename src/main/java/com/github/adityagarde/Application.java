@@ -31,9 +31,9 @@ public class Application {
         System.out.println("savedAuthor id == " + savedAuthor.id());
 
         bookRepository.saveAll(Arrays.asList(
-                new Book(null, "The Guide", 350, savedAuthor),
-                new Book(null, "Malgudi Days", 400, savedAuthor),
-                new Book(null, "A tiger for Malgudi", 300, savedAuthor)
+                new Book("The Guide", 350, savedAuthor),
+                new Book("Malgudi Days", 400, savedAuthor),
+                new Book("A tiger for Malgudi", 300, savedAuthor)
         ));
     }
 }
